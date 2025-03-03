@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="idx.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚆 Railway Reservation System</h1>
+        
+        <div class="input-section">
+            <input type="text" id="passengerName" placeholder="Enter Passenger Name">
+            <button onclick="bookSeat()">Book Seat</button>
+        </div>
+
+        <h2>Available Seats</h2>
+        <div class="seats" id="seatContainer"></div>
+
+        <h2>Waiting List</h2>
+        <ul id="waitingList"></ul>
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+</html>
